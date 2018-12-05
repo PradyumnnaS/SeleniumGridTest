@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]" parallel="tests">
+  <test thread-count="5" name="ChromeTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.test.grid.SeleniumGridTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+          <include name="testTitlePage"/>
+        </methods>
+      </class> <!-- com.test.grid.SeleniumGridTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
